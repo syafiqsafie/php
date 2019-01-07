@@ -34,15 +34,20 @@
 	// echo $t;
 
 	//smallest
-	$t = 100;
-	for($a = 0;$a < count($i); $a++)
-	{
-		if($i[$a] < $t)
-		{
-			$t = $i[$a];
-		}
-	}
+	// $t = 100;
+	// for($a = 0;$a < count($i); $a++)
+	// {
+	// 	if($i[$a] < $t)
+	// 	{
+	// 		$t = $i[$a];
+	// 	}
+	// }
 
-	echo $t;
+	// echo $t;
+
+	$word = "Hello World";
+	$arr = explode(' ',trim($word));
+
+	echo $arr;
 
 ?>
